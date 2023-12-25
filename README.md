@@ -10,3 +10,5 @@
     <td><img src="https://github.com/Neloy-Barman/Blender-Artworks/assets/110896263/d14caffc-1fec-4979-9ca2-e1b278f4da74" height="400" width="900"></td>
   </tr>
 </table>
+
+<h3>N.B: - I don't own the illustrator arts</h3>
