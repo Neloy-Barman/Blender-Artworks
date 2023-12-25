@@ -3,7 +3,7 @@
 <table>
   <tr>
     <th><strong>Illustrator Art</strong></th>
-    <th><strong>Blender 3d Creation</strong></th>
+    <th><strong>Blender 3D Creation</strong></th>
   </tr>
   <tr>
     <td><img src="https://github.com/Neloy-Barman/Blender-Artworks/assets/110896263/7286ce88-df34-4e72-aef6-4f0575583927" height="100" width="200"></td>
