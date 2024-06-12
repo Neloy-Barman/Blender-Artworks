@@ -29,3 +29,10 @@ How to create: -
 * **Tweak** other properties such as **Rotation**, **Scale** to get better results.
 
 
+## Pipes
+* Create the **Shape** of the pipe using **Custom Geometry** process.
+* Then convert it to a curve using **Object->Curve**.
+* In **Object Data Properties**, go to **Geometry->Bevel** and change properties according to need.
+ 
+
+
