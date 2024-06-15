@@ -21,5 +21,6 @@
 * Cancel workings: **Rright click**
 * In object mode, to move objects to collection: **Selection+M** 
 * Find Shortcuts: **F3**
+* **Extrude** Options: **Alt+E** 
 
 And Many more…………………
