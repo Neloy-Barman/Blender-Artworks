@@ -1,6 +1,17 @@
 # Different types of objects/ shapes Creation
 
 
+## Stairs
+### Normal Stairs
+* Create the upper and lower step from a plane or anything like edge or vertices. 
+* Then apply **Array Modifier** and adjust Factor X, Y, Z value according to need.
+* Go to **Edit->Edges** mode and selecting all **Edges**, press **M** and merge **vertices**.
+### Metalic Stairs
+* Do the same things as the **Normal Stairs** procedures.
+* Just apply **Loopcuts** or **Sub-divide** to the whole object.
+* Then add **Wireframe** modifier to the whole object.
+
+
 ## Water 
 To Create **Water**,
 * Consturct the **Shape** for the water.
@@ -33,6 +44,8 @@ How to create: -
 * Create the **Shape** of the pipe using **Custom Geometry** process.
 * Then convert it to a curve using **Object->Curve**.
 * In **Object Data Properties**, go to **Geometry->Bevel** and change properties according to need.
+
+
  
 
 
