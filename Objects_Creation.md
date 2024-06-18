@@ -45,6 +45,10 @@ How to create: -
 * Then convert it to a curve using **Object->Curve**.
 * In **Object Data Properties**, go to **Geometry->Bevel** and change properties according to need.
 
+## Neon Lights
+* Duplicate the **Edges** of the **Area** from the object and seperate them as a single object.
+* Selecting vertices, apply **Skin** modifier and change the size according to need pressing **Ctrl+A**.
+ 
 
  
 
