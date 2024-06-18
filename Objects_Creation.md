@@ -9,7 +9,7 @@
 ### Metalic Stairs
 * Do the same things as the **Normal Stairs** procedures.
 * Just apply **Loopcuts** or **Sub-divide** to the whole object.
-* Then add **Wireframe** modifier to the whole object.
+* Then add **Wireframe** modifier to the whole object.S
 
 
 ## Water 
