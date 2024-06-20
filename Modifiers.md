@@ -22,3 +22,6 @@
 ### Solidify
 **This gives a proper volume to the geometry. For example, giving volume to the buidling, leafs, car body and many more.**
 
+### Mirror
+**This is the perfect modifier to give symmetrical vibe to anything. The cursor should be in the middle of the mirror objects. When you extrude things from one side, the for some cases they overlap. That's why You should use clipping to merge them properly.**
+

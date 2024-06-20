@@ -22,5 +22,6 @@
 * In object mode, to move objects to collection: **Selection+M** 
 * Find Shortcuts: **F3**
 * **Extrude** Options: **Alt+E** 
+* Shear: **Alt+Shift+Ctrl+S**
 
 And Many more…………………
