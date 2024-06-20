@@ -48,6 +48,14 @@ How to create: -
 ## Neon Lights
 * Duplicate the **Edges** of the **Area** from the object and seperate them as a single object.
 * Selecting vertices, apply **Skin** modifier and change the size according to need pressing **Ctrl+A**.
+
+## Texts
+* **Shift+A->Text**.
+* Selecting the text in **Object** mode, go to **Object Data Properties** to tweak with the properties.
+* In **Edit** mode, you can change the text of the object.
+* To center the text, in the object data properties, go to **Paragraph->Alignments** and make **Horizontal**, **Vertical** **Center**.
+* To change the font style, from **Font**, select regular weight and select particular **.ttf** file. You can use your chosen ones by downloading them from **google fonts** and placing the **ttf** file there.
+* To make the text **extruded**, go to **Geometry->Extrude** and change the value according to need. For **Bevel**, the settings is also in the **Geometry**. 
  
 
  
