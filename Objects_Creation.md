@@ -56,7 +56,23 @@ How to create: -
 * To center the text, in the object data properties, go to **Paragraph->Alignments** and make **Horizontal**, **Vertical** **Center**.
 * To change the font style, from **Font**, select regular weight and select particular **.ttf** file. You can use your chosen ones by downloading them from **google fonts** and placing the **ttf** file there.
 * To make the text **extruded**, go to **Geometry->Extrude** and change the value according to need. For **Bevel**, the settings is also in the **Geometry**. 
- 
+
+## Grease Pencil objects
+* Add a **Grease Pencil->Blank** object using **Shift+A**.
+* Then switch to **Draw** mode from **Object**.
+* Drawing freely will make the art scattered in the viewport.
+* But if you want it to be particularly on some plane. Then create a plane joining the objects.
+* Switch the **Stroke Placement** to **Surface** and make the **Offset** 0.
+* Adjust **Stroke** strength, **Radius** value to need.
+* There are different types of styles in the left side panel in **Draw** mode, such as **Arc**, **Polyline**, **Curve** and many more.
+* After creating an art, press **Enter** to place the object.
+* Now selecting the pencil strokes, go to **Object** mode, **Object** and convert to **Bazier Curve**. Another object will be created. 
+* Enable **Simplify Curves** add-ons from preferences. 
+* Now selecting the pencil and new object layer, using **Shift+A**, add **Curve->Curve Simplify**. Adjust **Error** value from Distance Error.
+* These **New Simplified Curves** can be adjusted accorrding to need in the **Edit** Mode.
+* Then going to **Object Data Properties** go to **Bevel** and adjust depth and resoultion for better look.
+* We can create wires or wire-like things for example using this methodology.
+
 
  
 
