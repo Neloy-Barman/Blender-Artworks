@@ -21,3 +21,14 @@ When you add an object from another blender file using,
 * Go to **Edit->Preferences->Add-ons**. Search for **Looptools** and enable it.
 * Now you can use this tool by selecting **faces**, **right click** on it and go to **Looptools**.
 * **Flatten** interpolates the positions, rotations of the vertices and flatten them for better look.
+
+## Changing Material Preview Settings
+* Go to **Shading** in top right panel.
+* Click on the **Sphere** shape with shading.
+* There are different **HDR** settings to use according to scene requirements.
+* If you apply **Sunlight.exr**, then you can find objects with better shades.
+
+## Selection
+* If you import object from a file and there are multiple seperate objects within one, then go to **Edit->Face** mode, place the cursor on the object and press **L** to select the object.
+
+

@@ -5,7 +5,19 @@
 * To create a same color in different shades, you can duplicate color from **Add New Material** and change other properties based on preferences.
 * If you want a color to emit, then change the **Surface** to **Emission** shader and change the shader strength according to need.    
 
-## Water object
+## Water Object
 * Choose **Base Color**.
 * Change **IOR, Transmission** values.
 * Set **Roughness** to the least value to get better results.
+
+## Metalic Object
+* In the **Material Properties**, change the **Material** to **1.00** behave the object like a metal.
+* Decrease **Roughness** to make the object look **smoother**.
+
+## Glassy Material
+* Set **Roughness** to **0**.
+* Set **Transmission** to close to **1**.
+* If we like the material to be transmissive, then we need to edit some settings in **Evee**.
+* We have to enable **Screen Space Refraction** in settings.
+* It determines how deep the material will simulate the rays going into the object.
+

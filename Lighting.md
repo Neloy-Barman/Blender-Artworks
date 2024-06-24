@@ -8,3 +8,5 @@ Before setting up lights in the scene, turn on some settings.
 
 These settings will make the scene with lighting look more attractive and eye-catching.
 
+
+
