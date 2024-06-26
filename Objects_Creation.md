@@ -73,7 +73,10 @@ How to create: -
 * Then going to **Object Data Properties** go to **Bevel** and adjust depth and resoultion for better look.
 * We can create wires or wire-like things for example using this methodology.
 
-
- 
-
-
+## Fog Effect
+* Add a **Cube**, make it larger to match the **Fog** area.
+* Selecting the **Object**, go to **Material Properties**, create a new **Material**.
+* From **Surface**, **Remove** the shader.
+* Go to  **Volume**, apply **Volume Scatter**.
+* Now change the **Density** value according to satisfaction.
+* Change **Color**.  

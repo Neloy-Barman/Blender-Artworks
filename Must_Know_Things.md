@@ -31,4 +31,7 @@ When you add an object from another blender file using,
 ## Selection
 * If you import object from a file and there are multiple seperate objects within one, then go to **Edit->Face** mode, place the cursor on the object and press **L** to select the object.
 
+## Search
+* If there are many objects in the **Scene Collection**, then don't forget to use the **Search bar** above. 
+
 
