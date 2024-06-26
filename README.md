@@ -17,8 +17,24 @@
 </div>
 
 ## Creations from Tutorial
+
 <div align="center">
   <h4>Ancient Ruins</h4>
   <img src="Tutorials/Ancient Ruins/Ancient_Ruins.png" height="400">
 </div>
+
+<div align="center">
+  <h4>Cloud 66</h4>
+  <table>
+    <tr>
+      <th>Eevee</th>
+      <th>Cycles</th>
+    </tr>
+    <tr>
+      <td><img src="Tutorials/Cloud 66/Cloud_66.png"></td>
+      <td><img src="Tutorials/Cloud 66/Cloud_66_Cycles_bloomed.png"></td>
+    </tr>
+  </table>
+</div>
+
 <h3>N.B: - I don't own the illustrator arts</h3>
