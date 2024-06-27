@@ -12,6 +12,17 @@
 * Then add **Wireframe** modifier to the whole object.
 
 
+## Curved Objects
+* Add **Object** and apply **Array Modifier** to it accordingly.
+* Then add **Shift+A**->**Curve->Bazier Curve**. 
+* Select the curve, rotate it to **-90** on the **Y-axis**. Make the curve stright.
+* Place the **Endpoint** of the curve to the **top** of the object.
+* Selecting the object, apply **Curve** modifier and peek the selected curve from there.    
+* Now changing the curve point placements will change the object shape according to curvature.
+* Make the object parent for the curve to move along with object.
+* To this one as a single object, apply the modifiers and get rid of them. Now this can be edited as single object.
+
+
 ## Water 
 To Create **Water**,
 * Consturct the **Shape** for the water.
@@ -45,9 +56,11 @@ How to create: -
 * Then convert it to a curve using **Object->Curve**.
 * In **Object Data Properties**, go to **Geometry->Bevel** and change properties according to need.
 
+
 ## Neon Lights
 * Duplicate the **Edges** of the **Area** from the object and seperate them as a single object.
 * Selecting vertices, apply **Skin** modifier and change the size according to need pressing **Ctrl+A**.
+
 
 ## Texts
 * **Shift+A->Text**.
@@ -56,6 +69,7 @@ How to create: -
 * To center the text, in the object data properties, go to **Paragraph->Alignments** and make **Horizontal**, **Vertical** **Center**.
 * To change the font style, from **Font**, select regular weight and select particular **.ttf** file. You can use your chosen ones by downloading them from **google fonts** and placing the **ttf** file there.
 * To make the text **extruded**, go to **Geometry->Extrude** and change the value according to need. For **Bevel**, the settings is also in the **Geometry**. 
+
 
 ## Grease Pencil objects
 * Add a **Grease Pencil->Blank** object using **Shift+A**.
@@ -72,6 +86,7 @@ How to create: -
 * These **New Simplified Curves** can be adjusted accorrding to need in the **Edit** Mode.
 * Then going to **Object Data Properties** go to **Bevel** and adjust depth and resoultion for better look.
 * We can create wires or wire-like things for example using this methodology.
+
 
 ## Fog Effect
 * Add a **Cube**, make it larger to match the **Fog** area.
