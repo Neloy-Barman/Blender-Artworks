@@ -25,3 +25,11 @@
 ### Mirror
 **This is the perfect modifier to give symmetrical vibe to anything. The cursor should be in the middle of the mirror objects. When you extrude things from one side, the for some cases they overlap. That's why You should use clipping to merge them properly.**
 
+
+### Subdivision Surface
+**The algorithm sub-divides our geometry non-destructively. Increasing the Render number in the modifier gives us the best results. If we want to control the geometry, then we have to add some more loopcuts to get a better result. It almost works like bazier curves.To get sharper and smoother corner, add loopcuts from all ways.**
+
+
+### Bevel
+**Does the same thing as the Bevel using Ctrl+B. But it applies beveling on the whole object and all the edges.**
+

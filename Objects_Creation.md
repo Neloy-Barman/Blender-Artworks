@@ -95,3 +95,14 @@ How to create: -
 * Go to  **Volume**, apply **Volume Scatter**.
 * Now change the **Density** value according to satisfaction.
 * Change **Color**.  
+
+
+## Smooth Surfaes
+If you want to create smooth surfaces, then you have to enable smooth shading.
+* In **Object** mode, **Right click** on the object, then **Smooth Shade**. The smoothing algorithm tries to interpolate between phases and performs some smooth transition.
+* Apply **Subdivision Surface** modifier.
+* Add more and more loopcuts close the the edge to get smoother and sharper edges. 
+* To make realistic objects such as chairs, tables and some household tools, these smooth surfaces are needed. They reflect shading of lights.
+* If you make one with hard surface modeling, then it's too tough to manipulate again.
+* We can also use **Bevel** for low poly models as well as combine it with this modifier to get the best look.
+
