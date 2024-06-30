@@ -33,3 +33,7 @@
 ### Bevel
 **Does the same thing as the Bevel using Ctrl+B. But it applies beveling on the whole object and all the edges.**
 
+
+### Edge Split
+**Edge split modifier simply splits the edges into multiple meshes. When we do simple smoothing but also don't want the beveling angles to be shown, in that case, we can apply this modifier and the work will be done. There is one value which decides what will happen. That's the Edge Angle. Changing this value can affect the value. It's the angle between phases. If the angle value is greater than 30', then it will split the meshes.**
+

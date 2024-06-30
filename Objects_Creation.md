@@ -57,6 +57,13 @@ How to create: -
 * In **Object Data Properties**, go to **Geometry->Bevel** and change properties according to need.
 
 
+## Tins
+* Take a plane of **desired size**.
+* Add a number of **Loop Cuts** on the desired direction.
+* **Bevel** the loop cuts to even numbers more likely starting from 4 to any even numbers.
+* Selecting the beveling faces, switch to **Face** select, press **Ctrl+-** to contradict selection.
+* Now move the selected faces to **Z-axis**, and the **Tin** is ready. 
+
 ## Neon Lights
 * Duplicate the **Edges** of the **Area** from the object and seperate them as a single object.
 * Selecting vertices, apply **Skin** modifier and change the size according to need pressing **Ctrl+A**.
@@ -105,4 +112,12 @@ If you want to create smooth surfaces, then you have to enable smooth shading.
 * To make realistic objects such as chairs, tables and some household tools, these smooth surfaces are needed. They reflect shading of lights.
 * If you make one with hard surface modeling, then it's too tough to manipulate again.
 * We can also use **Bevel** for low poly models as well as combine it with this modifier to get the best look.
-
+* If we don't want the complexity of the geometry too much or low poly flat shading, then we can apply **Edge Split** modifier after applying **Beveling**.
+* Working with these sometime is too tricky, always perform **Test and Trial** before reaching to the final look.
+### When to use what
+#### Combining Edge split and Subdivision Surface modifier
+* If you **Bevel** edges and you don't want to show the beveling angles, then apply **Edge Split** modifier, change **Edge Angle** to look for the better result. 
+* Now looking from above some beveling elements may still be shown, so, now apply **Subdivision Surface** modifier to get rid of this problem. Change **Levels** to get a better result.
+#### Combining Bevel, Edge Split and Subdivision Surface modifier
+* If you also want smooth shading on the beveling cornered object, then apply **Bevel** modifier. Tweak values.
+* Then Follow the previous methods from the above procedures.
