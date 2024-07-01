@@ -140,3 +140,12 @@ If you want to create smooth surfaces, then you have to enable smooth shading.
 * Now applying spinning, tweak the properties and test with them to get the better results.
 * Use them for the desired shaped object.
 
+
+### Tree Tob
+* To add a pre-generated tree branches, **Shift+A->Curves->Sapling Tree Gen**.
+* Change **Branch Distribution, Branch Rings and Random Seed** values to get a desired shape.
+* Enable **Show Leaves** for the leaves.
+* Go to **Branch Distribution** and tweak settings there to change angle or other things.
+* Create a tree tob using **Screw** modifier.
+* To create **Mud** within **tob**, duplicate the tob and apply **Screw** modifier. Then join the top vertices to create a face. Now move or scale vertices to get the desired shape.    
+
