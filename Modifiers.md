@@ -4,23 +4,30 @@
 ### Array
 **We can create same object multiple times. Set fixed count number and tweak the values of dimensions according to need. Such as, Stairs steps.**
 
+
 ### Boolean
 **We can intersect, combine and subtract portions among objects.**
+
 
 ### Curve
 **Selecting an object, we can merge it into the bazier curve. Then the geometry will be presented according to the curve properties.**
 
+
 ### Displace
 **We manipulate an object with different textures by applying and tweaking the properties values.**
+
 
 ### Skin
 **Creating a custom geometry, we can give it a skin or volume. To change the thikness of the skin, you have to turn on vertex selection mode, then pressing Ctrl+A, we can scale the skin. For example we can create railings, custom trees using this modifier.**
 
+
 ### Wireframe
 **This modifier is similar to skin modifier. But applyig this one, we can give metalic vibe to the object. Such as, rod stairs, metalic frames.**
 
+
 ### Solidify
-**This gives a proper volume to the geometry. For example, giving volume to the buidling, leafs, car body and many more.**
+**This gives a proper volume to the geometry. For example, giving volume to the buidling, leafs, car body and many more. Enable Even Thikness to get proper solidifying from all sides.**
+
 
 ### Mirror
 **This is the perfect modifier to give symmetrical vibe to anything. The cursor should be in the middle of the mirror objects. When you extrude things from one side, the for some cases they overlap. That's why You should use clipping to merge them properly.**
@@ -36,4 +43,8 @@
 
 ### Edge Split
 **Edge split modifier simply splits the edges into multiple meshes. When we do simple smoothing but also don't want the beveling angles to be shown, in that case, we can apply this modifier and the work will be done. There is one value which decides what will happen. That's the Edge Angle. Changing this value can affect the value. It's the angle between phases. If the angle value is greater than 30', then it will split the meshes.**
+
+
+### Screw
+**If you want to create an object like drinking glass, wine bottles, flower tob or something like this, then this is the most useful modifier. Just create a shape from one side, then apply the modifier. Boom! The total shape is automatically created. Change the value of Angle, Screw and Iterations to get desired results. Also The number of steps will affect the result. More the steps, more detailed the object is.**
 

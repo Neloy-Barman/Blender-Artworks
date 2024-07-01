@@ -34,4 +34,10 @@ When you add an object from another blender file using,
 ## Search
 * If there are many objects in the **Scene Collection**, then don't forget to use the **Search bar** above. 
 
+## Random
+* Always apply **Scale** using **Ctrl+A** after scaling the object on desired size to get global transformations.
+* Always recalculate normals using **Shift+N**.
+* Always press **S** for even extruding while **Extrusion**. 
+* To use **Checker Disselect** from **Select**, at first select a **loop of faces** pressing **Alt**.
+* You can have multiple windows in blender. Just use this one for better workplace. 
 

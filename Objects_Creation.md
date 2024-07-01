@@ -64,9 +64,14 @@ How to create: -
 * Selecting the beveling faces, switch to **Face** select, press **Ctrl+-** to contradict selection.
 * Now move the selected faces to **Z-axis**, and the **Tin** is ready. 
 
+
 ## Neon Lights
 * Duplicate the **Edges** of the **Area** from the object and seperate them as a single object.
 * Selecting vertices, apply **Skin** modifier and change the size according to need pressing **Ctrl+A**.
+
+
+## Propellers
+* Create a **circle**, **inset** the face for middlebase of the fan. 
 
 
 ## Texts
@@ -108,12 +113,14 @@ How to create: -
 If you want to create smooth surfaces, then you have to enable smooth shading.
 * In **Object** mode, **Right click** on the object, then **Smooth Shade**. The smoothing algorithm tries to interpolate between phases and performs some smooth transition.
 * Apply **Subdivision Surface** modifier.
+* Go to **Viewport Shading**, Enable **Metcap Lighting** and select **Metal_Carpaint** to find the proper view of smooth surface shading. This will help to find out mistakes and do corrections based on them.
 * Add more and more loopcuts close the the edge to get smoother and sharper edges. 
 * To make realistic objects such as chairs, tables and some household tools, these smooth surfaces are needed. They reflect shading of lights.
 * If you make one with hard surface modeling, then it's too tough to manipulate again.
 * We can also use **Bevel** for low poly models as well as combine it with this modifier to get the best look.
 * If we don't want the complexity of the geometry too much or low poly flat shading, then we can apply **Edge Split** modifier after applying **Beveling**.
 * Working with these sometime is too tricky, always perform **Test and Trial** before reaching to the final look.
+* The smoothing will work and look the best when the topology has a number of sub-divisions.
 ### When to use what
 #### Combining Edge split and Subdivision Surface modifier
 * If you **Bevel** edges and you don't want to show the beveling angles, then apply **Edge Split** modifier, change **Edge Angle** to look for the better result. 
@@ -121,3 +128,15 @@ If you want to create smooth surfaces, then you have to enable smooth shading.
 #### Combining Bevel, Edge Split and Subdivision Surface modifier
 * If you also want smooth shading on the beveling cornered object, then apply **Bevel** modifier. Tweak values.
 * Then Follow the previous methods from the above procedures.
+### Objects without Boolean modifiers
+* When you need to smoothen object, you can't use boolean modifier. That will make the object more complex.
+* In those cases for circle, or other types of meshes within objects, use **Looptools** add-ons features.
+* Then apply modifiers to get better results.
+
+
+## Object Creation using Spin
+* Create the basic shape using **Single Vert**.
+* Then going to **Edit** mode, Find **Spin** from left Side panel.
+* Now applying spinning, tweak the properties and test with them to get the better results.
+* Use them for the desired shaped object.
+
