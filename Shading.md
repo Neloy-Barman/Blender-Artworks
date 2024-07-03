@@ -35,7 +35,28 @@
 * **Smart UV Project** is an autmated projection and sometimes it's good to move with this one.    
 * If you view the zoomed version of **Normal Texture** image in the **UV Editing** map, then you can see the x,y and z values of the rotations of the normals as color pixel values. Every pixel here is a different represention of its own normal.   
 * In the left panel, you can do everything with the texture you want. You can **Scale, Rotate or Move Vertices, Edges, Faces or Islands** according to need by selecting the whole object or particular portions in the **Edit** mode.
-* You can also do this in **Shading** panel by adding an **Input->Texture Coordinate->UV Node** and connect it to the **Vector->Mapping->Vector Node**. Now connect the **Mapping->Vector Node** output node to the **Base Texture->Vector** input node. Here you can perform all the transformations(Scale, Rotate, Move) on the textures.  
+* You can also do this in **Shading** panel by adding an **Input->Texture Coordinate->UV Node** and connect it to the **Vector->Mapping->Vector Node**. Now connect the **Mapping->Vector Node** output node to the **Base Texture->Vector** input node. Here you can perform all the transformations(Scale, Rotate, Move) on the textures. 
+
+
+## Different kinds of UV projection
+* **Cube Projection**: - It unwraps the texture like a cube.
+* **Cylinder Projection**: - It unwraps the texture like a cylinder. But it doesn't work for cube type objects. It's mainly for the spherical objects.
+* **Sphere Projection**: - It's for the spherical objects.
+* **Project from View**: - We can see the same co-ordinates placed on the texture as we see in the viewport. It's very useful when we want to map something from photograph or something like that.
+* **Project from View (Bound)**: - It's same as project from view but it just fills the whole texture space.
+* **Mark Seam**: - You have to switch to edge select in the viewport, you have to mark edges as seams to let know where the cut will go.
+* **Clear Seam**: - It clears the marked seam.
+
+
+## Manual UV Mapping
+* Switch to **UV Editing** panel.
+* We have to mark some **Edges** as **Seams** from the **Viewport**.
+* We need to look at the model as a papercraft where to construct the cube from 2D dimension paper, you need to laid out, cut it out and bend and glue together to get a cube. 
+* This is a reverse process where the 3d cube is projected and we need to mark where the mark is glued together to form an object from a 2d blueprint.
+* We are determining which parts are connected and which parts are disconnected.
+* Select edges, then press **U** and click on **Mark Seam**. The selected edges will be  highlighted as red.
+* In the **Edge** mode, in viewport, press **U** and click on **Unwrap**. This will give a manual UV mapping of the texture.    
+* Now this mannual mapping is needed when you yourself decide, which part of the texture should go where, what should be connected and what not. It's very useful when an object is exposed much to camera and need to control it's look.
 
 
 ## List of websites that offers free PBR textures
