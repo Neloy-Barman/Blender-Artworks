@@ -149,3 +149,8 @@ If you want to create smooth surfaces, then you have to enable smooth shading.
 * Create a tree tob using **Screw** modifier.
 * To create **Mud** within **tob**, duplicate the tob and apply **Screw** modifier. Then join the top vertices to create a face. Now move or scale vertices to get the desired shape.    
 
+
+## Photo Frame
+* You can add image as plane and place it in the desired place.
+* If you don't want to create a seperate frame for the image, then you just can **Extrude** the image and make it look like a frame.
+* Then you can play with the **Roughness** value to give it glossyness or not. 

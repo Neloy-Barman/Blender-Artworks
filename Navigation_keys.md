@@ -23,5 +23,6 @@
 * Find Shortcuts: **F3**
 * **Extrude** Options: **Alt+E** 
 * Shear: **Alt+Shift+Ctrl+S**
+* Move objects in it's local co-ordinate: - **G+Z+Z**
 
 And Many more…………………

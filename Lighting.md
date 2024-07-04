@@ -4,6 +4,7 @@
 * An area light opposed to the camera makes the scene look better.
 * Move the **Area** light to up. Then rotate on the **X-axis: -45''** and **Z-axis:45''**. Now the light will be perfectly opposite of the camera.  
 * Change the **Color** and increase the **Power** of the light to satisfaction.
+* Increase the **Size** of the light area light to get a proper scattering of the lights. Also change the **Shape** to get which in which shape you want the scattering.  
 
 ## World Light
 * Go to **World Properties**.

@@ -8,6 +8,7 @@
 * To connect nodes, select the nodes pressing **Shift** and press **F**. The nodes are connected then.
 * Principal BSDf -> Principal Bi-directional Scalaring Distributional Function. It's a mathmatical algorithm to caculate light emission in the shader. Bi-directional means it deals with both reflected and absorbed light.
 
+
 ## Collecting Textures
 * As a beginner, go to [Textures.one](https://3dassets.one/?q=&sort=popular) and search for textures according to need.
 * Now download the zip file of 1k-8k according to need. If you are working with a more detailed and realistic textures, then download the files with higher resolution. Else lower ones will work properly.
@@ -57,6 +58,18 @@
 * Select edges, then press **U** and click on **Mark Seam**. The selected edges will be  highlighted as red.
 * In the **Edge** mode, in viewport, press **U** and click on **Unwrap**. This will give a manual UV mapping of the texture.    
 * Now this mannual mapping is needed when you yourself decide, which part of the texture should go where, what should be connected and what not. It's very useful when an object is exposed much to camera and need to control it's look.
+
+
+## Adjusting glossyness of textures
+* The **Black** color is roughness **0**, so it's glossy. **White->1->Rough**.
+* Add a **Color->Inverter** node before connecting it to the **Principal Shader->Roughness** node.
+* Then adjust **Fac** value of the **Inverter** node to control the roughness.
+
+
+## Transforming Textures
+* Add **Texture Coordinate, Mapping** nodes.
+* Connect it to the **Base Color, Normal and Roughness** input node.
+* Transforming in the **Point** value of **Texture Coordinate** will affect all the values.  
 
 
 ## List of websites that offers free PBR textures
