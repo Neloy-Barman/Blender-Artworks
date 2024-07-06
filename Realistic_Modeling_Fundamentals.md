@@ -5,3 +5,7 @@
 * Go for the **Branded Object**. In most of the cases, there will be proper blueprints searching for the object with name.
 * Place the blueprints properly on the blender.
 
+## 3 common ways to fix something
+* Re-calculate normals
+* Merge vertices **By Distance** using **M**.
+* Check there are no extra inside **Edges** or **Faces** creating problems.
