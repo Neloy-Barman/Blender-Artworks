@@ -51,3 +51,13 @@ When you add an object from another blender file using,
 * You can have multiple windows in blender. Just use this one for better workplace. 
 
 
+## Smooth Shading
+* It takes 2 faces and blends them. Like this there are many types of calculations going on to perform shading. It doesn't know the difference between the numberous number of faint lines and the angle 90" between edges. It treats this as flat lines. 
+* We need to force blender to know that when something is at certain angle, it should not be smoothen and should be treated as hard edge there.
+
+
+## Edge Creasing
+* It's used to make the edge sharper while using suvb-division surface modifier. 
+* It has a factor of 0 to 1.
+* We dn't get control of the edge then. Instead of using it we can use loop cut to perform beveling. That's more handy to do.
+

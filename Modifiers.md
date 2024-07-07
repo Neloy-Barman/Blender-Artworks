@@ -30,7 +30,7 @@
 
 
 ### Mirror
-**This is the perfect modifier to give symmetrical vibe to anything. The cursor should be in the middle of the mirror objects. When you extrude things from one side, the for some cases they overlap. That's why You should use clipping to merge them properly.**
+**This is the perfect modifier to give symmetrical vibe to anything. The cursor should be in the middle of the mirror objects. When you extrude things from one side, the for some cases they overlap. That's why You should use clipping to merge them properly. To make symmetrical objects you can go to Mirror Object and pick the object using dropper tool.**
 
 
 ### Subdivision Surface
@@ -42,7 +42,9 @@
 
 
 ### Edge Split
-**Edge split modifier simply splits the edges into multiple meshes. When we do simple smoothing but also don't want the beveling angles to be shown, in that case, we can apply this modifier and the work will be done. There is one value which decides what will happen. That's the Edge Angle. Changing this value can affect the value. It's the angle between phases. If the angle value is greater than 30', then it will split the meshes.**
+**Edge split modifier simply splits the edges into multiple meshes. When we do simple smoothing but also don't want the beveling angles to be shown, in that case, we can apply this modifier and the work will be done. There is one value which decides what will happen. That's the Edge Angle. Changing this value can affect the value. It's the angle between phases. If the angle value is greater than 30', then it will split the meshes.** 
+
+**The same thing can be done going to Object Data Properties->Normals-> Enabling Auto Smooth and putting required angle.**
 
 
 ### Screw

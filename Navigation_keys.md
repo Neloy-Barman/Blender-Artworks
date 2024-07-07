@@ -23,6 +23,10 @@
 * Find Shortcuts: **F3**
 * **Extrude** Options: **Alt+E** 
 * Shear: **Alt+Shift+Ctrl+S**
-* Move objects in it's local co-ordinate: - **G+Z+Z**
+* Move objects in it's local co-ordinate: - **G+axis+axis**
+* Edge Creasing: - **Selecting object+Shift+E**
+* Edge or Vertex Slide: - **Selecting object+G+G**
+* Edge or Vertex Sliding by disabling campling: - **Selecting object+G+G+C**
+
 
 And Many more…………………
