@@ -27,6 +27,9 @@
 * Edge Creasing: - **Selecting object+Shift+E**
 * Edge or Vertex Slide: - **Selecting object+G+G**
 * Edge or Vertex Sliding by disabling campling: - **Selecting object+G+G+C**
+* Splitting windows view in 4 different orthographic views: - **Ctrl+Alt+Q**
+* Shrink flatten: - **Selecting Vertex+Alt+S**
+* Selection Circle: - **C** 
 
 
 And Many more…………………

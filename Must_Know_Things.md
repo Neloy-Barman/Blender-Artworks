@@ -57,7 +57,7 @@ When you add an object from another blender file using,
 
 
 ## Edge Creasing
-* It's used to make the edge sharper while using suvb-division surface modifier. 
-* It has a factor of 0 to 1.
+* It's used to make the edge sharper while using suvb-division surface modifier.
+* It has a factor of 0 to 1. **Selecting object+Shift+E**
 * We dn't get control of the edge then. Instead of using it we can use loop cut to perform beveling. That's more handy to do.
 
