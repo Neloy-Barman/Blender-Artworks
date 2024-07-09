@@ -154,3 +154,14 @@ If you want to create smooth surfaces, then you have to enable smooth shading.
 * You can add image as plane and place it in the desired place.
 * If you don't want to create a seperate frame for the image, then you just can **Extrude** the image and make it look like a frame.
 * Then you can play with the **Roughness** value to give it glossyness or not. 
+
+
+## Poke Tool
+* It's really a cool tool and add a crazy amount of details to the object you create. Using this tool we can get criscross edges instead of only horizontal and vertical edges.
+* Select the object, add a number of loopcuts to have tiny squares. 
+* Then select the faces to be poked, go to **Face** and select **Poke Faces**.
+* You can change the **Poke Offset** value in the lower panel that pops up while poking to get different shapes.
+* Now we have to dissolve the horizontal and vertical edges.
+* Select a horizontal and one vertical edge as sample. Press **F3**.
+* Search for **Similar** and select **Length**. Tweak the **Threshold** value to select all the desired edges.
+* Now press **X** and select **Dissolve Edges**. Boom!! The edges are dissolved and now you can do whatever you want with the edges and faces.
