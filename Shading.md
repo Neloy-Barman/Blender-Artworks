@@ -11,7 +11,7 @@
 
 ## Collecting Textures
 * As a beginner, go to [Textures.one](https://3dassets.one/?q=&sort=popular) and search for textures according to need.
-* Now download the zip file of 1k-8k according to need. If you are working with a more detailed and realistic textures, then download the files with higher resolution. Else lower ones will work properly.
+* Now download the zip file of 1k-8k according to need. If you are working with a more detailed and realistic textures, then download the files with higher resolution. Else lower ones will work properly. The higher the resolution, the higher it will take to render the image or animation whatever you do.
 * Make sure the downloaded file has these 3 different images **Normal, Roughness & Color maps**. These confirm something called **PBR->Physically Based Rendering**. These 3 basic maps are always needed. Sometimes there can be more of them.
 * PBR is a set of rules that principal BSDF shader confronts to as well. How to interpret the light on the surface, how to do all of the things such as roughness, bumps with the normal mapping are set by this set of rules.   
 * There is another map called **Displacement**. This is too heavy and an advanced topic. So, leave that.
@@ -38,6 +38,20 @@
 * In the left panel, you can do everything with the texture you want. You can **Scale, Rotate or Move Vertices, Edges, Faces or Islands** according to need by selecting the whole object or particular portions in the **Edit** mode.
 * You can also do this in **Shading** panel by adding an **Input->Texture Coordinate->UV Node** and connect it to the **Vector->Mapping->Vector Node**. Now connect the **Mapping->Vector Node** output node to the **Base Texture->Vector** input node. Here you can perform all the transformations(Scale, Rotate, Move) on the textures. 
 
+## Mark Seam
+* It's generally a better idea to put seams at the back and bottom of the model because the camera is not gonna notice there.
+* Mark seams where those are needed.
+* Then go to **UV Editing** from the top panel. Select the **Mesh**. Go to **Edit Mode**.
+* Selecting the **Mesh**, press **U** and select **Unwrap**. Now it's time to check whether the unwrapping is done properly.
+* In the left window go to **Image** icon and select **New** choose **UV Grid** from **Generated Type** and press **OK**.
+* To place the **UV Grid** texture in the object, add **Material**, From **Base Color left dot** select **Image Texture**.
+* Now choose the **UV Grid** image as the texture. Swithing to the **Material** preview, you can see the texture.
+* If the grids are properly placed on the mesh, then it's ok. Otherwise if the grids are stretched, then we will have a stretching in the texture. We have to fix the issue.
+* That's why it is **UV Grid** to check properly whether the texture is unwrapped properly or not. As long as we have proper squares, it means we are going to have proper textures.  
+
+## Selecting Islands in the UV Editing
+* Hover to the part which you want to change. Then press **L**.
+* From the bottom pop up panel **Select Linked**, select **Seam** and the part is selected in the texture map.
 
 ## Different kinds of UV projection
 * **Cube Projection**: - It unwraps the texture like a cube.
