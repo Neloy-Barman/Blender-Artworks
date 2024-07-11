@@ -22,3 +22,10 @@
 * If we get one vertices way out of the line, then we can do shrink flatten, that is **Selecting Vertex+Alt+S**. It will move the vertex along its normal. You can bring vertices to particular line according to need.    
 * Sometimes you need to move vertices using sliding. In that cases, you can disable clamping and move it more further on its axis. **G+G+C**.   
 * Don't forget to switch to local axes of the vertices while moving vertices. This will help to keep the shape in its best.
+
+## Overall Scaling
+* When we model something from blueprints, we just work on withut any consideration of scaling. But everything in the world has a real world scaling. It's not a problem of having a large scale in the vaccum but it will be annoying when you add something to a scene with incredebly wrong scale. That's why scaling properly is required. It's so much easy when you scale everything correctly. When you import and reuse assets then the things look perfect and correct. We need to make a habit of doing that.
+* To do this, at first take a cube, set the **Origin Point** to the base of the object. Then scale the height of the **Cube** to required things.
+* Now take the **Object** and perform scaling to make the size perfect.
+* Don't forget to perform universal scaling by pressing **Ctrl+A**. 
+

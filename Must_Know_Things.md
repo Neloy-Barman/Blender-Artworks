@@ -49,6 +49,7 @@ When you add an object from another blender file using,
 * Always press **S** for even extruding while **Extrusion**. 
 * To use **Checker Disselect** from **Select**, at first select a **loop of faces** pressing **Alt**.
 * You can have multiple windows in blender. Just use this one for better workplace. 
+* You can type any units with the value in the **Dimensions** in the side panel. **Blender** will automatically convert it to **meter**.
 
 
 ## Smooth Shading
@@ -60,4 +61,14 @@ When you add an object from another blender file using,
 * It's used to make the edge sharper while using suvb-division surface modifier.
 * It has a factor of 0 to 1. **Selecting object+Shift+E**
 * We dn't get control of the edge then. Instead of using it we can use loop cut to perform beveling. That's more handy to do.
+
+## Origin to Geometry
+* Sometimes, when you work, origin gets out of the mesh.
+* Don't forget to perform **Set Origin to Geometry** when needed.
+
+
+## Make object data single user and apply modifier
+* Sometimes this happens while perform universal scaling or applying modifier to the objects that you create as the linked object.
+* To solve this issue, selecting the **Object**, go to **Object** from upper panel.
+* Choose **Relations -> Make Single User -> Object & Data**. 
 
