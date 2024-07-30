@@ -13,4 +13,7 @@
 * In the **Volume**, we can do some fog effects in the scene by changing it to **Volume Scatter**. But it's better to do this using a **Cube**, because we have a better control over density.    
 
 
+* Shadow is equally important as light. 
+
+
 
