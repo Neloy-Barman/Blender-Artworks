@@ -29,3 +29,8 @@
 * Now take the **Object** and perform scaling to make the size perfect.
 * Don't forget to perform universal scaling by pressing **Ctrl+A**. 
 
+
+# Sharper objects
+* To make some corners sharper, we can select edges, press **Alt+S** to scale the edges and move accordingly to look it as a sharp edge.
+ 
+

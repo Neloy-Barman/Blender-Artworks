@@ -30,6 +30,8 @@
 * Splitting windows view in 4 different orthographic views: - **Ctrl+Alt+Q**
 * Shrink flatten: - **Selecting Vertex+Alt+S**
 * Selection Circle: - **C** 
+* Delete Vertices and join the remaining ones: - **Ctrl+X**
+* Join vertices and create faces: - **J** 
 
 
 And Many more…………………
