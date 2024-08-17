@@ -16,3 +16,13 @@
 * Install **Isocam_Script.py** in add-ons.
 * Then enable **Create IsoCam** from the add-ons.
 * Then Pressing **N** in the viewport will give you option named **PR Isocam**.
+
+## PowerSave
+* After installing the add-on, you will find **PowerSave** icon on the second top panel beside **Object**.
+* By clicking it, we have to enable **Use Autosave** and switch to **Autosave Suffix** from the dropdown.
+* Change the **Autosave Interval** according to need. The number is in minutes.
+* if we click **PowerSave** icon, it will create another file and save it. If we apply changes to the file after the interval, it will automatically save the file. Then the icon will be green.
+*   
+
+
+
