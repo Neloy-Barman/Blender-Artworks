@@ -33,4 +33,16 @@ There is a free course for modeling realistic and cool things. Find it <a href="
 * Before symmetrizing, we need to reset the rotation and we can do it by pressing **Ctrl+A** and select **Rotation**.
 
 
+## Shading problem and potential fixes
+* When there are a number of faces and these get cut and turned into angles, then there arises some shading problem.
+* There will be a lot of vertices and edges within n-gons behaving weiredly. So, we have to fix this.
+* Fixes: -
+    * **Loop Cuts**: - We need to add a number of loops both in the cutter and to get cut objects that will maintain the shading within the object. Make sure that the ingoing loops kinds of encompass the structural edges. The loop should not be falling on the edge.   
+    * **Knife Tool**: - We can add a edge using knife to create a tight shading and it will isolate problematic area. 
+    * **Inset**: - Insetting faces will add a security parameter to the shading. It will isolate the middle shade from the outer one.
+* No matter how much you try, you will never have a perfect shading. 
 
+## Booleans in steeper faces
+Whenever we have edges in the steep angle, it's generally a bad idea to bevel edges on them.
+* The beveling gets pulled very badly and it breaks the shape.
+* So, whenever we have booleans connecting to main mesh, we need to make sure that the connections are more or less 90 degrees towards the edge that's gonna get beveled.
