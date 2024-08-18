@@ -38,8 +38,16 @@
 
 
 ### Bevel
-**Does the same thing as the Bevel using Ctrl+B. But it applies beveling on the whole object and all the edges.**
+* **Does the same thing as the Bevel using Ctrl+B. But it applies beveling on the whole object and all the edges.**
+* **To make the shape circular, we need to change the Geometry->Miter Outer to Arc. Then it will give a rounded shape for the required places.** 
+* **But it introduces some wierd beveling within large surfaces. To Fix that, we need to add a new modifier that is Weighted Normal.**
+* **To solve the proble of shading for a particular edge, we can introduce another bevel modifier in the stack. Change the Limit Method from angle to Weight. Then select the edge and right click and select Edge Bevel Weight. This will solve the issue of shadowing.**
 
+### Weighted Normal
+* **This solves the issues of shading problem created by the bevel modifier.**
+* **This modifier should always be at the bottom of the stack.**
+* **Never apply this modifier to the object even at the final processing.**
+* **Just apply it in the end and don't touch it.**
 
 ### Edge Split
 **Edge split modifier simply splits the edges into multiple meshes. When we do simple smoothing but also don't want the beveling angles to be shown, in that case, we can apply this modifier and the work will be done. There is one value which decides what will happen. That's the Edge Angle. Changing this value can affect the value. It's the angle between phases. If the angle value is greater than 30', then it will split the meshes.** 

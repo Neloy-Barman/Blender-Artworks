@@ -26,4 +26,11 @@ There is a free course for modeling realistic and cool things. Find it <a href="
 * When we want to create a cut on the object of a particular shape, we will select the cutter shape and the object pressing **Shift**. Then press **Ctrl+-** to apply bool tool and cut the object. It applies the boolean modifier automatically. To use this we have to enable the **Bool Tool** add-on from preferences.  
 * The object we use as cutters can be moved to seperate collection, so that when the work is done we can turn them off for hassle free work.  
 
+* It's a better habit to create bevel with even number of segments. It's because if we create a lower poly version of the object, we will make bevels less dense. So, that we can select every second edge of the bevel and dissolve them. This will cut the resolution of the bevel in half. 
+* If we use odd number, then we may have to remove an edge that holds the flatness of the bevel. But we don't want to disturb the outer edges. 
+* Before we cut anything, we need to smooth out the mesh. Perform auto-smooth, which smoothens certain angles and others. We have to do this for every object.
+* Don't move beveled cutter to that much deep that intersects with edge that will be or is beveled. So, we want to avoid overlapping of bevels. It's possible but it requires a lot of working in terms of topology fixing. 
+* Before symmetrizing, we need to reset the rotation and we can do it by pressing **Ctrl+A** and select **Rotation**.
+
+
 

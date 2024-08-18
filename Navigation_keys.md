@@ -32,6 +32,10 @@
 * Selection Circle: - **C** 
 * Delete Vertices and join the remaining ones: - **Ctrl+X**
 * Join vertices and create faces: - **J** 
+* Cutting objects using booleans: -  
+    * Select Cutter shape object and the object to get cut and press: - **Ctrl+-**. It will cut the object into shape.
+    * Cut object into pieces: - **Ctrl+/**. In this case the objects share data with each others.
+    * To seperate, we need to go to **Object Data properties** and click on the number on right with the object name. The objects will be seperated.  
 
 
 And Many more…………………

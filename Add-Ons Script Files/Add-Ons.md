@@ -22,7 +22,13 @@
 * By clicking it, we have to enable **Use Autosave** and switch to **Autosave Suffix** from the dropdown.
 * Change the **Autosave Interval** according to need. The number is in minutes.
 * if we click **PowerSave** icon, it will create another file and save it. If we apply changes to the file after the interval, it will automatically save the file. Then the icon will be green.
-*   
+
+
+## Copy Attributes Menu
+* It lets us to copy the attributes of one object to another.
+* Example: - 
+    * Select the object to get copied attributes and objecct from where to copy the attribute.
+    * Press **Ctrl+C**, and select whatever you want to copy.  
 
 
 
