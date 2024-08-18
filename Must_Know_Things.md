@@ -72,3 +72,12 @@ When you add an object from another blender file using,
 * To solve this issue, selecting the **Object**, go to **Object** from upper panel.
 * Choose **Relations -> Make Single User -> Object & Data**. 
 
+
+
+## Instance Creation of the entire Collection
+* It's just a fake image of the collection that we will use.
+* It decreases the use of the memory.
+* At first we need a seperate collection where only the object that will be instanced will be placed.
+* Then go to **Add->Collection Instance->Select the collection**.
+* These can't be edited mannually. Only edition in the main object will affect this instance. 
+* We can duplicate these instances by using **Shift+D** and use them to copy.
