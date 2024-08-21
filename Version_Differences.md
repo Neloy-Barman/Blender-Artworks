@@ -1,0 +1,4 @@
+# Difference between Versions
+There are some differences between blenders for versions 4.1(<=) and 4.2(>=).
+* **Modifier Menu**: - We will add modifiers using a sub-menu. But that's different in 4.1. The orders of the modifiers in the sub-menu is different. If we don't like that, then we can add a mod, that will revert it to the old modifier menu. It is suggested to use this because this is far more easy and intuitive to handle. 
+* **Autosmooth**: - It is a parameter that we add to the blender to tell which edge is going to be sharp and which is going to be smooth. In 4.2, we can right click on the object and select **Shade Auto Smooth**. If we have Hard-ops addon installed then, the parameter is added automatically to the blender.   
