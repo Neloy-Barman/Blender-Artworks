@@ -35,4 +35,8 @@
     * Press **Ctrl+C**, and select whatever you want to copy.  
 
 
+## Looptools
+* If we select 2 faces from opposide
+
+
 

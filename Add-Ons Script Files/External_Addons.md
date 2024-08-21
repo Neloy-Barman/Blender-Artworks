@@ -22,4 +22,7 @@
         * Also provides **Occlude mode** which is the X-Ray mode.
         * **Auto Merge** which merges vertices while close to each other. In vanilla blender, it takes quite a few steps to enable this feature.
 * **Shift+S** This is the same thing as in the vanilla blender just coming in a pie menu. You can set origin and cursor according to need. 
+* Merge vertices in the median: - **Shift+1**.
+* Hide/Unhide Collection: - **Shift+Collection number in Scene Collection**
+* To move vertices to particular side: - **Alt+A** and select where you want to s
            
