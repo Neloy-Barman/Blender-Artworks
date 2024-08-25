@@ -52,10 +52,14 @@ How to create: -
 
 
 ## Pipes
-* Create the **Shape** of the pipe using **Custom Geometry** process.
+* Take a **Single Vert**.
+* Extrude it and give it a desired shape you want.
 * Then convert it to a curve using **Object->Curve**.
-* In **Object Data Properties**, go to **Geometry->Bevel** and change properties according to need.
-
+* In **Object Data Properties**, go to **Geometry->Bevel** and change properties according to need.* 
+* Apply **Auto Smooth**.
+* Press **Ctrl+A** in **Object** mode and apply **Visual Geometry to Mesh**.
+* Apply **Subdivision Surface** modifier to it.
+* Now its a free shape and you can work on it freely if you want any change in it.
 
 ## Tins
 * Take a plane of **desired size**.

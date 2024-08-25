@@ -37,6 +37,7 @@
 
 ## Looptools
 * If we select 2 faces from opposide
+* We can use **Relax** to make the curve more flown. 
 
 
 

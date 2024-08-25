@@ -41,6 +41,12 @@ There is a free course for modeling realistic and cool things. Find it <a href="
     * **Knife Tool**: - We can add a edge using knife to create a tight shading and it will isolate problematic area. 
     * **Inset**: - Insetting faces will add a security parameter to the shading. It will isolate the middle shade from the outer one.
 * No matter how much you try, you will never have a perfect shading. 
+* When we will have a lot of loop cuts in the object, then there will be less shading distortions.  
+* When we join objects using booleans on steep surfaces, then there of course will be a lot of distortions. We have to fix them mannually looking at them.
+* We should add a lot of loop cuts in both the objects.
+* We need to follow the order of the topology flows, how these loops are flown within. We need to provide a parameter loop within the mesh using **Knife** tool so that the shading flow is kept untouched.  
+* We always need to find the shading break within the mesh and fix it.    
+
 
 ## Booleans in steeper faces
 Whenever we have edges in the steep angle, it's generally a bad idea to bevel edges on them.
