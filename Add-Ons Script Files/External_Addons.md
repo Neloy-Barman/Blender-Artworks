@@ -106,6 +106,10 @@
 
 
 #### HotKeys
+* Box Helper Menu: **D**
+    * Normal: **D**
+    * Box Helper Pie Menu: **Ctrl+D**
+    * Place mouse pointer on the selected object and press **D**. It will show same menu but in a different way. We can perform operations from choosing there.
 * Lock shape before confirming: **Tab**
 * Move shape: **G**
 * Rotate: **R**
@@ -116,7 +120,23 @@
 * Segment number for bevel: **Sroll Mouse Wheel**
 * Bevel in the backwall of the shape: **Q**
 * Bevel in the Frontwall of the shape: **Shift+F** after pressing **Q**.
-* It's a better idea to perform these operations in lock mode.  
+* It's a better idea to perform operations in lock mode.  
+* Make Cutter visible: **L** before executing the cutter. It's a persistant feature. If we don't want it we again have to press L.
+* Add array modifier: **V**
+    * Side change: **Move Mouse pointer to the chosen side**
+    * Distance: **Move Pointer back and forth**
+    * Axis change: **X** 
+    * Radial design: **V** again
+* Thicken Modifier: **T**. It turns the edge of the box into a thicken feature. We can adjust which shape we want to thicken. In the case of **Inset**, it thickens the insetted shape.
+    * Equally: **2**
+    * Inside shape: **3**
+    * Outside shape: **1**, default.
+* Backface scaling/ Tapper: **Shift+T**
+* Wedge Cut: **W**, press again to change the side. It appears on the faces from the corner we start dragging the shape using mouse.   
+* Helper dots appearance: **Alt+D**. We can perform any kind of operation on individual edges by selecting and move, rotate or others.
+    * Select any dot and press **Middle Mouse Button** to bevel.
+    * **Scroll wheel** for controlling the segment number. 
+* Find all the hotkeys and navigation things to **BoxCutter** [here](https://youtu.be/dC2Zw8GcxxU?si=U7lE-NgV1bou9Jwe). 
 
 
 
