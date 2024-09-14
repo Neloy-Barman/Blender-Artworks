@@ -131,13 +131,23 @@
     * Equally: **2**
     * Inside shape: **3**
     * Outside shape: **1**, default.
+* Enable magic dots on face: Press **Ctrl**. Make sure the **static dots** is enabled from the top.
 * Backface scaling/ Tapper: **Shift+T**
 * Wedge Cut: **W**, press again to change the side. It appears on the faces from the corner we start dragging the shape using mouse.   
 * Helper dots appearance: **Alt+D**. We can perform any kind of operation on individual edges by selecting and move, rotate or others.
     * Select any dot and press **Middle Mouse Button** to bevel.
     * **Scroll wheel** for controlling the segment number. 
 * Find all the hotkeys and navigation things to **BoxCutter** [here](https://youtu.be/dC2Zw8GcxxU?si=U7lE-NgV1bou9Jwe). 
+* Refer [here](https://boxcutter-manual.readthedocs.io/en/master/hotkeys/) for more hotkeys.
 
 
 
+
+## HardOps
+
+* **Inset/Outset: -**
+    * Create the changing shape.
+    * Select the shape at first and the object secondly simultaneously.
+    * Press **Q** and go to **Booleans->Inset/Outset**.
+    * The cutter shape will automatically be added to the **Cutter** collection.
            
