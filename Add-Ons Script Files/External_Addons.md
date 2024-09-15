@@ -150,4 +150,7 @@
     * Select the shape at first and the object secondly simultaneously.
     * Press **Q** and go to **Booleans->Inset/Outset**.
     * The cutter shape will automatically be added to the **Cutter** collection.
+
+* 
+* Resharp Shading: - Select object, press **Q**, then press **Ctrl+Shift** and click on **Sharpen**.
            
