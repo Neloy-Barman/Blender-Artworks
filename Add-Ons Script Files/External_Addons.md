@@ -187,4 +187,6 @@
     * Press **X** to reset the mirror.
     * Another mirror: Press **Alt+A**.                                                                       
 * Resharp Shading: - Select object, press **Q**, then press **Ctrl+Shift** and click on **Sharpen**.
+
+Reference: - https://youtu.be/qR5PkHUl4yQ?si=Xz6idinR1xHecwFk. 
            
