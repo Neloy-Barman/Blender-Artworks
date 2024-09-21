@@ -188,5 +188,5 @@
     * Another mirror: Press **Alt+A**.                                                                       
 * Resharp Shading: - Select object, press **Q**, then press **Ctrl+Shift** and click on **Sharpen**.
 
-Reference: - https://youtu.be/qR5PkHUl4yQ?si=Xz6idinR1xHecwFk. 
+Reference: - [HardOps MASTERY in 8 Minutes](https://youtu.be/qR5PkHUl4yQ?si=Xz6idinR1xHecwFk) from Ponte Ryuurui. 
            
