@@ -145,12 +145,46 @@
 
 ## HardOps
 
-* **Inset/Outset: -**
-    * Create the changing shape.
-    * Select the shape at first and the object secondly simultaneously.
-    * Press **Q** and go to **Booleans->Inset/Outset**.
-    * The cutter shape will automatically be added to the **Cutter** collection.
-
-* 
+* **Cavity** enables us to see edges better. Enable :- Press **Alt+V**, then click on **Cavity** from the pop up menu.
+* Go to **File-> Defaults-> Save Startup File**. Doing this will bring the same settings each time we open blender.
+* **Main Menu**: - **Q**. Main menu will change depending on what we have on the screen, what module we have selected. Selecting an oobject in **Object** mode and pressing **Q** will show different tools. And in **Edit** mode, it will be different. This is just different states of menu. It will group up the tools at the top, that we are most likely going to use.
+    * **Weighted Normal**: - Press **Q**+**Alt**+ Click **Sharpen**.
+    * **Ever Scroll**: - Select **Object**, press **Q** and select **Ever Scroll**, scroll wheel to recover the cutters to perform changes on it.
+    * **Smart Apply**: - Select **Object**, press **Q**. Go to **Operations->Smart Apply**. It will smartly apply the modifiers that can be added destructively.  
+    * **Booleans**: - Press **Shift**, select **Cutter** object and the one to get cut. Press **Q** and select the boolean you want to apply.
+    * **Array**: - From menu, select **Add Modifier->Array**. Press **X** to change axis. Press **A** to add new array modifier. 
+    * **Curve Extractor**: - 
+        * **Seperate Object**: -  Select faces in the object. Press **Q**, Hold **Shift** and click **Curve/Extract**. This will add solidification to the selected part and create it as a seperate object.      
+        * **Extracting Curve**: - Extract edge and convert it to a curve. Press **Q** click **Curve/Extract**.
+            * **Editing Curve**: - 
+                * Select the extracted **Curve**. 
+                * Press **Q**.
+                * Select **Adjust Curve**. 
+                * Then press **X**.
+                * Selecting  the mesh, press **Ctrl+A**.
+                * Select **Visual Geometry to Mesh**.
+                * Now going to edit mode, change or edit as you want.
+                * Now selecting it press **Q->Curve Extract** will convert it to a curve again.
+                * Then press **S** to convert to a pipe.
+    * **EM_Macro**: - Select faces. Then hold **Alt** and click **EM_Macro**. Move mouse further to make inset or outset.     
+    * **Selection to Boolean**: - Go to **Mesh Tools->Selection to Boolean**. This will convert a selected face to the boolean.   
+    * **Align View**: - Select **Face**, Go to **Mesh Tools->Align View**.   
+    * **Sharpen**: - **Ctrl+Sharpen** to apply all the booleans. It's kind of like a dirty smart apply.
+    * **Clean Mesh**: - Select **Object** in edit mode, press **Q** go to **Operations->Clean Mesh**. It will delete unwanted vertices. Although everything will not be cleaned. 
+* HardOps Helper Menu is an important menu:- **Ctrl+`**.
+    * **View Modifiers**: - Go to **Modifier**. We can see all the modifiers. We don't have to mannually adjust modifier stacks here.
+    * **Sort Modifiers**: - Clck on **Tools->Workflow->Sort Modifiers**.  We can turn it on or off also for any particular modifier. 
+    * **Sharp Edges Attributes**: - Go to **Sharpen/ Shading**. When we run **Sharpen**, what's gonna be added to the edges. We can change **Global**, **Auto Smooth** angles. Also enabling or disabling Crease, Bweight, Seam and Sharp.    
+* **Hide Cutters Collection**: - **Shift+2**.
+* Material Menu: - **Alt+M**.
+    * Add Material to the object: - Select object, press **Alt+M**. Then select **Add Blank Material**. 
+    * Material Scroll: - Select object, press **Alt+M**. Then hold **Shift** and press **Material Scroll**. Then scroll mouse wheel and HOps will automatically generate materials that we may like.
+    * **Glass Emissive Material**: - **Shift+Add Blank Material** will add the glass meterial to the object.
+* Vieport Menu: - **Alt+V**.
+* **Mirroring Object**: - Press **Alt+X**.
+    * Press **D** to pop up more options.     
+    * Hold **Shift** and select the axis to mirror across multiple axis. 
+    * Press **X** to reset the mirror.
+    * Another mirror: Press **Alt+A**.                                                                       
 * Resharp Shading: - Select object, press **Q**, then press **Ctrl+Shift** and click on **Sharpen**.
            
