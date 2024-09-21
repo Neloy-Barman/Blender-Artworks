@@ -100,7 +100,8 @@
 #### Snapping and Grids
 * Enabling this will create the object in that place.
 * Go to particular place and press **Ctrl**. It will show **Static Dots** and we can draw from there.
-* Enabling **Static grids** will show grids. The grid is generated based on the center of the shape. We can also change the size of the grid distance. 
+* Enabling **Static grids** will show grids. The grid is generated based on the center of the shape. We can also change the size of the grid distance.
+* To use static dots, the view must be in the **Object** mode. Then press **Ctrl** to get the dots. 
 
 * Find the complete beginner tutorial guide to **BoxCutter** [here](https://youtu.be/3zLBmHVXpsk?si=24hZ6p0fefC5_by9). 
 
@@ -148,6 +149,12 @@
 * **Cavity** enables us to see edges better. Enable :- Press **Alt+V**, then click on **Cavity** from the pop up menu.
 * Go to **File-> Defaults-> Save Startup File**. Doing this will bring the same settings each time we open blender.
 * **Main Menu**: - **Q**. Main menu will change depending on what we have on the screen, what module we have selected. Selecting an oobject in **Object** mode and pressing **Q** will show different tools. And in **Edit** mode, it will be different. This is just different states of menu. It will group up the tools at the top, that we are most likely going to use.
+    * **Bevel**: - **B**.
+        * **Adjusting Bevel Weight**: -
+            * Select the Cutter using Ever scroll.
+            * Go to **Edit->Edge** mode.
+            * Press **Q**. Hold **Alt** and click **Mark**.
+            * Now hold **Shift** and moving mouse up and down will increase bevel width and scrolling will increase segments. 
     * **Weighted Normal**: - Press **Q**+**Alt**+ Click **Sharpen**.
     * **Ever Scroll**: - Select **Object**, press **Q** and select **Ever Scroll**, scroll wheel to recover the cutters to perform changes on it.
     * **Smart Apply**: - Select **Object**, press **Q**. Go to **Operations->Smart Apply**. It will smartly apply the modifiers that can be added destructively.  
@@ -169,7 +176,9 @@
     * **EM_Macro**: - Select faces. Then hold **Alt** and click **EM_Macro**. Move mouse further to make inset or outset.     
     * **Selection to Boolean**: - Go to **Mesh Tools->Selection to Boolean**. This will convert a selected face to the boolean.   
     * **Align View**: - Select **Face**, Go to **Mesh Tools->Align View**.   
-    * **Sharpen**: - **Ctrl+Sharpen** to apply all the booleans. It's kind of like a dirty smart apply.
+    * **Sharpen**: - 
+        * **Ctrl+Sharpen** to apply all the booleans. It's kind of like a dirty smart apply.
+        * **Recalculate Sharpening**: - Select object, press **Q**, then press **Ctrl+Shift** and click on **Sharpen**. It will remove the sharp edges and add them back to other edges.
     * **Clean Mesh**: - Select **Object** in edit mode, press **Q** go to **Operations->Clean Mesh**. It will delete unwanted vertices. Although everything will not be cleaned. 
 * HardOps Helper Menu is an important menu:- **Ctrl+`**.
     * **View Modifiers**: - Go to **Modifier**. We can see all the modifiers. We don't have to mannually adjust modifier stacks here.
@@ -185,8 +194,16 @@
     * Press **D** to pop up more options.     
     * Hold **Shift** and select the axis to mirror across multiple axis. 
     * Press **X** to reset the mirror.
-    * Another mirror: Press **Alt+A**.                                                                       
-* Resharp Shading: - Select object, press **Q**, then press **Ctrl+Shift** and click on **Sharpen**.
+    * Another mirror: Press **Alt+A**.       
+* **Using Cutters as the object**: - 
+    * Select the cutter.
+    * Press **Q**.
+    * Go to **Settings->Shade Solid**.
+    * Then move it to a usable collection from **Cutters** Collection.
+* **Re-using Same cutters**:- When you executed one cutter once, then 
+    * Select the object. 
+    * Place the mouse pointer in the desired place. 
+    * Press  **Ctrl+Left click** will execute the cutter in the object.                                                                
 
 Reference: - [HardOps MASTERY in 8 Minutes](https://youtu.be/qR5PkHUl4yQ?si=Xz6idinR1xHecwFk) from Ponte Ryuurui. 
            
