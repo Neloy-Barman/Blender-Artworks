@@ -169,3 +169,9 @@ If you want to create smooth surfaces, then you have to enable smooth shading.
 * Select a horizontal and one vertical edge as sample. Press **F3**.
 * Search for **Similar** and select **Length**. Tweak the **Threshold** value to select all the desired edges.
 * Now press **X** and select **Dissolve Edges**. Boom!! The edges are dissolved and now you can do whatever you want with the edges and faces.
+
+
+## Any kind of primitive Creation
+* Add **Cylinder** or **Circle**.
+* Make the number of vertices to the expected number.
+* As an example, for **circle**, change the number to **3**.

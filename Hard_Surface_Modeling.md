@@ -52,3 +52,8 @@ There is a free course for modeling realistic and cool things. Find it <a href="
 Whenever we have edges in the steep angle, it's generally a bad idea to bevel edges on them.
 * The beveling gets pulled very badly and it breaks the shape.
 * So, whenever we have booleans connecting to main mesh, we need to make sure that the connections are more or less 90 degrees towards the edge that's gonna get beveled.
+
+## Cleaning Up meshs
+* **Machine3Tools** CleanUp: - Select the mesh and press **3**.
+* Go to 3D print ToolBox -> Clean Up -> Make Manifold.
+* HardOps -> Operations -> Clean Mesh
