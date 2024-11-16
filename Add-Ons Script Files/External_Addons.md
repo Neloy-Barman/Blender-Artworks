@@ -203,7 +203,7 @@
 * **Re-using Same cutters**:- When you executed one cutter once, then 
     * Select the object. 
     * Place the mouse pointer in the desired place. 
-    * Press  **Ctrl+Left click** will execute the cutter in the object.                                                                
+    * Press  **Ctrl+Left click** will execute the cutter in the object.`                                                                
 
 Reference: - [HardOps MASTERY in 8 Minutes](https://youtu.be/qR5PkHUl4yQ?si=Xz6idinR1xHecwFk) from Ponte Ryuurui. 
            
