@@ -9,7 +9,8 @@
 * **Rename Bone: -** Click on **Bone Properties** from **Properties**. There we can change the name of the bone.
 * **Naming Convention: -** Add a space and then write **L** or **R**. Blender will then use this duplicate the bones on other side.
 
-## Inverse Kinemetics
+
+# Inverse Kinemetics
 If we don't have this setup, we have to select each bone one by one for particular things such as for arm or legs and move them one by one while animation. With the **Inverse Kinemetics** rigging, we can select one 
 bone and connected parts will be moving automatically. 
 * Select the bone inside the IK bone.
@@ -32,3 +33,31 @@ bone and connected parts will be moving automatically.
     * Within **Bone**, select the bone whose setting you want to copy.
 * If any bone doesn't work expectedly, then just delete the bone, subdivide the working bone and place the parts accordingly to work.
 * **Parenting Bone** 
+    * Selecting bones, go to **Edit mode**.
+    * Select the bone that you want as parent in the end, press **Ctrl+P** and select **Keep Offset**.
+    * The bone will be parented to other bone with their respective position.
+* **Making bones to not control mesh**
+    * Select the bone.
+    * Go to **Bone** from **Properties**.
+    * Disable **Deform**.
+    * Now the bone will not control the mesh.
+    * We do this mostly for the **IK** bones because they are just to control other bones combined not for controling the body structure.
+* **Mirroring Bones**
+    * Select one sided bones in **Edit Mode**.
+    * Now go to **Armature** from above panel and click on **Symmetrize**.
+    * In the popup panel, you can change **Direction**. It is same as the **Object** Symmetrization thing.
+    * You will notice all the bones will have name of their directed side. **L** or **R**.
+* Here comes the truth of the moment.
+* In the **Object Mode**, pressing **Shift**, Select the **Object** to be rigged and the **Armature**. 
+* Press **Ctrl+P** and select **With Automatic Weights**. It will detect where the meshes are with the bones and it rig the bones nearby. 
+* **Editing Weight Painting of Bones**
+    * In **Object mode**, select the bones and the mesh in the end.
+    * Now go to **Weight Paint** mode. 
+    * Select the bone using **Ctrl+Shift+LMB**.
+    * It shows the weight paint of the bone. This is a visual representation of how much mesh will the bone pull along.
+    * Where the mesh is red, it will pull all the mesh of that area. Closer to blue one means it will pull less mesh from that area. Now going from red to blue and the in between colors means pulling mesh lesser.
+    * We can change **Weight, Radius & Strength** values for the brush and paint areas to control the regions with bones.
+    * Make sure to set the axis to symmetrize the workings on both side.
+    * Now select which brush you want to use from  **Browse Bush to be Linked**. Mostly we will use **Add, Subtract** to control areas.
+    * If we select the bones with **Deform** turned off, then the areas will be turned to pink.
+Congratulations!!! Now we know the things to create the basics of the character rigging.     
