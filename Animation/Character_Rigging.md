@@ -50,6 +50,7 @@ bone and connected parts will be moving automatically.
 * Here comes the truth of the moment.
 * In the **Object Mode**, pressing **Shift**, Select the **Object** to be rigged and the **Armature**. 
 * Press **Ctrl+P** and select **With Automatic Weights**. It will detect where the meshes are with the bones and it rig the bones nearby. 
+* If we have individual bones and meshes, select **Bone** to parent. 
 * **Editing Weight Painting of Bones**
     * In **Object mode**, select the bones and the mesh in the end.
     * Now go to **Weight Paint** mode. 
