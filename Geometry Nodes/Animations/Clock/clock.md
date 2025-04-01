@@ -18,7 +18,7 @@
 <img src="SMH.png">
 
 
-## Second, Minute and Hour Pin
+## Faster Second, Minute and Hour Pin
 * Things get slower when we go accurately. But if we want the animation to be faster, we can have a value and multiply it with rotation value to make it n times faster. For example we have given 500 here. It will make all the pins animation faster. 
 <img src="Faster_SMH.png">
 
